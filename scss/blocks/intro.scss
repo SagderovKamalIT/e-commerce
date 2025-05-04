@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+  background: url(../../assets/icons/intro-line.svg) no-repeat;
+  background-size: auto;
+  background-position: top 0.813rem right 0;
+
+  &__logo {
+    position: absolute;
+    top: 2.313rem;
+    left: 0;
+    padding: 1rem 2.563rem 1rem 9rem;
+    background-color: $blue-lotus;
+    border-top-right-radius: 6.25rem;
+    border-bottom-right-radius: 6.25rem;
+    text-decoration: none;
+
+    img {
+      width: 9.313rem;
+      height: 3.125rem;
+    }
+  }
+}
+
+
+.intro {
+  padding: 12.625rem 0 6.813rem 0;
+  background: url(../../assets/img/intro-background.png) no-repeat;
+  background-size: 32.75rem 24.125rem;
+  background-position: bottom 3.563rem right 0;
+
+  &__title {
+    font-family: "Grandis Extended", sans-serif;
+    color: $blue-lotus;
+    font-weight: 700;
+    line-height: 5.125rem;
+    font-size: 4rem;
+    width: 52.5rem;
+  }
+
+  &__paragraph {
+    font-family: "Grandis Extended", sans-serif;
+    color: $lemon-green;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3.188rem;
+  }
+
+  &__span {
+    color: $rangoon-green;
+    text-transform: lowercase;
+  }
+
+  &__text {
+    font-family: "Unbounded", sans-serif;
+    width: 36.563rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: $dark-jungle-green;
+  }
+}

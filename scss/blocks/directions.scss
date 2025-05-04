@@ -1,0 +1,60 @@
+.directions {
+  padding: 7rem 0;
+  background: $ebony-clay;
+
+  &__title {
+    font-family: "Unbounded", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $white;
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2.75rem;
+    column-gap: 2.5rem;
+  }
+
+  &__item {
+    background-color: $white;
+    padding: 1.625rem 2.688rem;
+    border-radius: 1.375rem;
+
+    &:last-child {
+      grid-column: 1 / -1;
+      justify-self: center;
+      width: 36.625rem;
+    }
+
+    p {
+      font-family: "Unbounded", sans-serif;
+      font-size: 1.25rem;
+      line-height: 1.563rem;
+      font-weight: 400;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+
+
+  
+    }
+
+    &-img {
+      width: auto;
+      height: 4.938rem;
+
+      &-last {
+        height: 3.084rem;
+        display: flex;
+        align-self: center;
+      }
+    }
+  }
+}

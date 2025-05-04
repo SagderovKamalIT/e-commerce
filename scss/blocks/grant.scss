@@ -1,0 +1,39 @@
+.grant {
+  padding: 4.25rem 0 5.375rem 0;
+  font-family: "Unbounded", sans-serif;
+  background: url(../../assets/img/grant-background.png) no-repeat;
+  background-position: top 4.25rem right 4.325rem;
+  background-size: 33.769rem 22.813rem;
+
+  &__title {
+    font-size: 3rem;
+    width: 33.438rem;
+    line-height: 3.813rem;
+    font-weight: 700;
+    margin-bottom: 1.125rem;
+  }
+
+  &__paragraph-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    width: 41.625rem;
+margin-bottom: 2.7rem;
+  }
+
+  &__paragraph-span {
+    font-weight: 700;
+font-size: 2rem;
+line-height: 2.5rem;
+color: $blue-lotus;
+
+  }
+
+  &-btn {
+    @include btn($blue-lotus, $white, 2.25rem, 0.531rem, 11.406rem, 0.831rem, 11.406rem,  6.25rem);
+    text-decoration: underline;
+    text-decoration-color: $white;
+    text-underline-offset: 0.5rem;
+    font-family:  "Gilroy", sans-serif;;
+  }
+}
