@@ -1,5 +1,5 @@
-# future-tourism
+# e-commerce
 
 сайт распологаеся по следующему адрессу:
-https://sagderovkamalit.github.io/future-tourism
+https://sagderovkamalit.github.io/e-commerce
 
