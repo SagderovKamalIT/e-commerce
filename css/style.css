@@ -280,7 +280,7 @@ section {
 }
 @media (max-width: 460px) {
   html {
-    font-size: 90%;
+    font-size: 100%;
   }
   .wrap {
     padding: 0 2.813rem;
@@ -288,7 +288,7 @@ section {
 }
 @media (max-width: 380px) {
   html {
-    font-size: 70%;
+    font-size: 90%;
   }
 }
 .header {
@@ -951,7 +951,7 @@ section {
 @media (max-width: 460px) {
   .grant {
     padding: 1.938rem 0 15.75rem 0;
-    background-position: top 16rem center;
+    background-position: bottom 1.2rem center;
     background-size: 20.313rem 13.688rem;
   }
   .grant__title {
@@ -974,7 +974,7 @@ section {
     background: #7A4FF6;
     color: #FFFFFF;
     font-size: 1.25rem;
-    padding: 0.906rem 5.906rem 0.906rem 5.906rem;
+    padding: 0.906rem 4rem 0.906rem 4rem;
     border-radius: 6.25rem;
     cursor: pointer;
     text-underline-offset: 0.3rem;

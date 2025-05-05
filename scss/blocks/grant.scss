@@ -1,7 +1,7 @@
 .grant {
   padding: 4.25rem 0 5.375rem 0;
   font-family: "Unbounded", sans-serif;
-  // background: url(../../assets/img/grant-background.png) no-repeat;
+  //  background: url(../../assets/img/grant-background.png) no-repeat;
   background: url(#{$base-url}/assets/img/grant-background.png) no-repeat;
   background-position: top 4.25rem right 4.325rem;
   background-size: 33.769rem 22.813rem;
@@ -75,7 +75,7 @@ color: $blue-lotus;
 @media (max-width: 460px) {
   .grant {
     padding: 1.938rem 0 15.75rem 0;
-    background-position: top 16rem center ;
+    background-position: bottom 1.2rem center ;
     background-size: 20.313rem 13.688rem;
   
     &__title {
@@ -99,7 +99,7 @@ color: $blue-lotus;
     }
   
     &-btn {
-      @include btn($blue-lotus, $white, 1.25rem, 0.906rem, 5.906rem, 0.906rem, 5.906rem,  6.25rem);
+      @include btn($blue-lotus, $white, 1.25rem, 0.906rem, 4rem, 0.906rem, 4rem,  6.25rem);
       text-underline-offset: 0.3rem;
       display: flex;
       justify-content: center; 
