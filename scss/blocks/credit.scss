@@ -7,7 +7,8 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url(../../assets/icons/credit__line.svg);
+    // background-image: url(../../assets/icons/credit__line.svg);
+    background-image: url(#{$base-url}/assets/icons/credit__line.svg);
     bottom: 2.314rem;
     right: 11.181rem;
     width: 17.744rem;
@@ -23,6 +24,7 @@
     flex-direction: column;
     gap: 2.938rem;
     align-items: center;
+    padding: 0 3rem;
 
     
       &-paragraph {
@@ -47,4 +49,67 @@
       }
   }
 
+}
+
+@media (max-width: 1024px) {
+  .credit {
+    padding: 2.5rem 0;
+  
+    &::before {
+      // background-image: url(../../assets/icons/credit-tablet.svg);
+      background-image: url(#{$base-url}/assets/icons/credit-tablet.svg);
+      bottom: 2.5rem;
+      right: 11.181rem;
+      width: 8.688rem;
+      height: 5rem;
+      background-repeat: no-repeat;
+  
+    }
+  
+    &__container {
+      gap: 1.438rem;
+  
+      
+        &-paragraph {
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+        }
+      
+      
+        &-btn {
+          @include btn($white, $ebony-clay, 1.25rem, 0.875rem, 6.063rem, 0.875rem, 6.063rem,  6.25rem);
+          text-underline-offset: 0.3rem;
+
+        }
+    }
+  
+  }
+}
+
+@media (max-width: 460px) {
+  .credit {
+    padding: 2.188rem 0;
+  
+    &::before {
+      background-image: none;
+  
+    }
+  
+    &__container {
+      gap: 1.625rem;
+  
+      
+        &-paragraph {
+          font-size: 1.25rem;
+          line-height: 1.563rem;
+        }
+      
+      
+        &-btn {
+          @include btn($white, $ebony-clay, 1.25rem, 0.344rem, 2.688rem, 0.644rem, 2.688rem,  2.594rem);
+          text-underline-offset: 0.3rem;
+        }
+    }
+  
+  }
 }

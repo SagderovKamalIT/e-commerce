@@ -4,6 +4,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%
 }
 
 .container { 
@@ -77,60 +78,65 @@ section {
   justify-content: flex-start; 
 }
 
-// @media (max-width: 1350px) {
-//   html {
-//     font-size: 80%; 
-//   }
-// }
+@media (max-width: 1350px) {
+  html {
+    font-size: 85%;
+  }
+}
 
-// @media (max-width: 1190px) {
-//   html {
-//     font-size: 70%; 
-//   }
-// }
+@media (max-width: 1190px) {
+  html {
+    font-size: 75%;
+  }
+}
 
+@media (max-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
 
+  .wrap {
+    padding: 0 5.938rem;
+  }
+}
 
-// @media (max-width: 960px) {
-//   html {
-//     font-size: 60%; 
-//   }
-// }
+@media (max-width: 960px) {
+  html {
+    font-size: 80%;
+  }
+}
 
+@media (max-width: 760px) {
+  html {
+    font-size: 60%;
+  }
+}
 
-// @media (max-width: 860px) {
-//   .wrap {
-//     padding: 0 7.05rem;
-//   }
-// }
+@media (max-width: 580px) {
+  html {
+    font-size: 50%;
+  }
+}
 
-// @media (max-width: 660px) {
-//   html {
-//     font-size: 50%; 
-//   }
-// }
+@media (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+}
 
-// @media (max-width: 550px) {
-//   html {
-//     font-size: 40%; 
-//   }
-// }
+@media (max-width: 460px) {
 
+  html {
+    font-size: 90%;
+  }
+  .wrap {
+    padding: 0 2.813rem;
+  }
+}
 
-// @media (max-width: 475px) {
-//   .wrap {
-//     max-width: 100%;
-//     padding: 0 1.3rem;
-//     box-sizing: border-box;
-//   }
+@media (max-width: 380px) {
+html {
+  font-size: 70%;
+}
+}
 
-//   .categories-wrap {
-//     max-width: 100%;
-//     padding: 0 1.3rem;
-//     box-sizing: border-box;
-//   }
-
-//   html {
-//     font-size: 100%;
-//   }
-// }
